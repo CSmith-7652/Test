@@ -11,6 +11,7 @@ namespace ConsoleApp1
         {
             Console.WriteLine(" Fun With Async ===>");
             //Console.WriteLine(DoWork());
+
             string message = await DoWorkAsync();
             Console.WriteLine(message);
             Console.WriteLine("Completed");
